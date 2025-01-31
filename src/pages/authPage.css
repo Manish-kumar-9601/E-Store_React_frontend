@@ -1,0 +1,37 @@
+﻿.auth-main{
+    margin: 4rem auto;
+    width: 300px;
+    height: 300px;
+    background: rgba(239, 239, 239, 0.302);
+    border-radius: 29px;
+    box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.btn{
+    min-width: 5rem;
+    width:7rem;
+    max-width: 10rem;
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.login-btn{
+    display: flex;
+}
+.signUp-btn{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.auth-disclaimer{
+    padding: .5rem;
+    font-weight: 200;
+    font-size: .8rem;
+}

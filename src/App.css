@@ -1,0 +1,25 @@
+img {
+  width: 15rem;
+  height: 20rem;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+h2 {
+  font-size: 1.3rem;
+}
+.categoryHeading {
+  font-size: 2.3rem;
+}
+.product {
+  cursor: pointer;
+}
+
+.bestseller {
+  text-align: center;
+}
+.bestseller > * {
+  margin: 20px;
+}
+

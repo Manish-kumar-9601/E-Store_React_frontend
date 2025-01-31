@@ -1,0 +1,91 @@
+﻿.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.md\\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.md\\:gap-5 {
+    gap: 1.25rem;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.md\\:col-span-3 {
+    grid-column: span 3 / span 3;
+}
+
+.min-w-full {
+    min-width: 100%;
+}
+
+.border-b {
+    border-bottom: 1px solid #ccc;
+}
+
+.p-5 {
+    padding: 1.25rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.default-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.default-button:hover {
+    background-color: #e0e0e0;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.primary-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.pb-3 {
+    padding-bottom: 0.75rem;
+}

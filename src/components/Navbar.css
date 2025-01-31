@@ -1,0 +1,151 @@
+﻿.navbar {
+  position: sticky;
+  width: 100%;
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+  /* Gradient background */
+  padding: 0 2rem;
+  /* Increased padding for a more spacious look */
+  box-shadow: 0 4px 8px rgba(141, 141, 141, 0.1);
+  /* Subtle shadow for depth */
+  height: 65px;
+}
+
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0;
+}
+
+.navbar-logo img {
+  height: 3rem;
+  width: 3rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem 0.1rem;
+  /* Added padding for better click area */
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  /* Smooth transition for hover effects */
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  /* Ensured text color is white for better readability */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  /* Centered alignment for better aesthetics */
+}
+
+.navbar-links li:hover {
+  color: #ff6347;
+
+  /* Changed hover color to a more vibrant shade */
+  background-color: #e8e8e8;
+  /* Added background color on hover */
+}
+
+.navbar-links li.active {
+  background-color: #a7a7a7;
+  /* Slightly lighter background for active state */
+  color: #ff6347;
+  /* Matching active color with hover color */
+  border-radius: 5px;
+  /* Added border radius for rounded corners */
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icons a {
+  color: rgb(0, 0, 0);
+  margin-left: 1rem;
+  position: relative;
+}
+
+.navbar-icons .badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.6rem;
+}
+.cart_icons {
+  font-size: 1.3rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .navbar-main {
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: flex-start;
+    /* Align items to the start */
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    /* Stack menu items vertically */
+    width: 100%;
+    /* Full width for menu items */
+  }
+
+  .navbar-links li {
+    width: 100%;
+    /* Full width for each menu item */
+    text-align: left;
+    /* Align text to the left */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 0 1rem;
+    /* Reduce padding for smaller screens */
+  }
+
+  .navbar-logo img {
+    height: 3rem;
+    /* Reduce image height */
+    width: 3rem;
+    /* Reduce image width */
+  }
+
+  .navbar-links {
+    gap: 1rem;
+    /* Reduce gap between menu items */
+  }
+
+  .navbar-links li {
+    padding: 0.5rem 0.5rem;
+    /* Adjust padding for smaller screens */
+  }
+}
+.navbar-auth-btn {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
